@@ -1,27 +1,27 @@
 
-var content= document.getElementById("sonnet");
-var sonnet = content.innerHTML;
-// console.log (sonnet);
+// var content= document.getElementById("sonnet");
+// var sonnet = content.innerHTML;
+// // console.log (sonnet);
 
-// Take the contents of the sonnet div and place it in a variable
-var element = document.getElementById('sonnet');
-
-
-// Find and output the starting position of the word "orphans
-var indexOfOrphans = sonnet.indexOf("orphans");
-console.log ("indexOfOrphans" , indexOfOrphans);
-
-// Output the number of characters in the sonnet
-console.log("length of sonnet" , sonnet.length)
+// // Take the contents of the sonnet div and place it in a variable
+// var element = document.getElementById('sonnet');
 
 
-// Replace the first occurance of the string "winter" with "yuletide"
-var newSonnet = sonnet.replace ("winter" , "yuletide");
+// // Find and output the starting position of the word "orphans
+// var indexOfOrphans = sonnet.indexOf("orphans");
+// console.log ("indexOfOrphans" , indexOfOrphans);
+
+// // Output the number of characters in the sonnet
+// console.log("length of sonnet" , sonnet.length)
 
 
-// Replace all occurances of the string "the" with "a large"
-var globalReplace= newSonnet.replace(/the /g, "a large ");
+// // Replace the first occurance of the string "winter" with "yuletide"
+// var newSonnet = sonnet.replace ("winter" , "yuletide");
 
 
-// Set the content of the sonnet div with the new string
-element.innerHTML = globalReplace;
+// // Replace all occurances of the string "the" with "a large"
+// var globalReplace= newSonnet.replace(/the /g, "a large ");
+
+
+// // Set the content of the sonnet div with the new string
+// element.innerHTML = globalReplace;
