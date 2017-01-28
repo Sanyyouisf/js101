@@ -77,23 +77,44 @@
 // for (var j=0 ; j< fruit.length; j++){
 // console.log (fruit[j]);
 // }
+// console.log("finalAnswer", finalAnswer);
 
-for ( var k=0; k<101; k=k+10 ){
-console.log(k);
+for(var i=0; i<5; i++){
+    console.log("i", i);
+}
+
+var fruit = ["cherries", "apples", "bananas", "orange"];
+
+for(var j=0; j<fruit.length; j++){
+    console.log("fruit", fruit[j]);
 }
 
 
+// write a for loop that increments by 10 each time = 10 times 10, 20 , 30, 50....100
+
+
+for (var k = 0; k<101 ; k+=10) {
+    console.log("k", k);
+}
+
+// for loop that pushes the index to an array for 5 times console.log (array) \\ [0,1,2,3,4]
+
+var myArray = []
+for(var i=0; i<5; i++) {
+    myArray.push(i);
+}
+
+console.log("myArray ", myArray);
 
 
 
+// for loop that starts at 100 and divides by 2 each time 3 times = 100,50,25
 
-
-
-
-
-
-
-
+var num = 100;
+for(var j=0; j<3; j++){
+    console.log("Number: ", num);
+    num=num/2;
+}
 
 
 
