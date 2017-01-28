@@ -78,9 +78,49 @@
 // console.log (fruit[j]);
 // }
 
-for ( var k=0; k<101; k=k+10 ){
-console.log(k);
-}
+// for ( var k=0; k<101; k=k+10 ){
+// console.log(k);
+// }
+
+
+// function nuggetMaker(animal) {
+// var myNugget = "braeding" + animal  + "braeding" ;
+// return myNugget;
+// }
+
+// var checkenNuggets = nuggetMaker("checken");
+// console.log(checkenNuggets);
+// var lobsterNuggets = nuggetMaker("lobster");
+// console.log(lobsterNuggets);
+// var tablet = nuggetMaker("myComputer");
+// console.log(tablet);
+
+
+// function myLooper (myArray) {
+// for (var i= 0 ; i < myArray.length ; i++){
+// 	console.log(myArray[i]);
+// }
+// }
+
+// var animal =["cats","apple","banana"  ]
+// var colors = ["blue ","green"];
+
+// myLooper(animal);
+// myLooper(colors);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
