@@ -1,22 +1,5 @@
-// console.log ("day3.js");
-
-// //objects 
-// var myCat = {
-// tail: "long",
-// age: 29,
-// color: "blue",
-// friends: ["zoe" ,"Callon", "Lauren "]
 
 
-// }
-// console.log ( myCat.age);
-// console.log ( myCat["color"]);
-
-// for ( var myKey in myCat ){
-// console.log(myKey);
-// console.log (myCat[myKey])
-
-// }
 
 // function nuggetMaker(animal) {
 // var myNugget = "braeding" + animal  + "braeding" ;
@@ -51,7 +34,9 @@
 // FUNCTIONS
 
 var nuggetElement = document.getElementById("nuggetShack");
+console.log(nuggetElement);
 var availElement = document.getElementById("availForPurchase");
+console.log(availElement);
 
 
 function nuggetMaker(animal) {
@@ -59,34 +44,36 @@ function nuggetMaker(animal) {
 	return myNugget;
 }
 
-function shackMaker(divLocation, typeOfNugget) {
-	availElement.innerHTML += typeOfNugget;
-}
+// console.log(nuggetMaker('sany'));
 
-var chickenNuggets = nuggetMaker("chicken");
-shackMaker(availElement, chickenNuggets);
-
-var lobsterNuggets = nuggetMaker("lobster");
-shackMaker(availElement, lobsterNuggets);
-
-var tablets = nuggetMaker("myComputer");
-shackMaker(availElement, tablets);
-
-var shackName = "Callan's Shack";
-nuggetElement.innerHTML += shackName;
-
-
-// function myLooper(myArray) {
-// 	for(var i=0; i<myArray.length; i++) {
-// 		console.log(myArray[i]);
-// 	}
+// function shackMaker(divLocation, typeOfNugget) {
+// 	availElement.innerHTML += typeOfNugget;
 // }
 
-// var animals = ["cat", "turtle", "fish", "bears", "tigers"];
-// var colors = ["red", "blue", "gold", "pink", "orange"];
+// var chickenNuggets = nuggetMaker("chicken222444");
+// shackMaker(availElement, chickenNuggets);
 
-// myLooper(animals);
-// myLooper(colors);
+// var lobsterNuggets = nuggetMaker("lobster");
+// shackMaker(availElement, lobsterNuggets);
+
+// var tablets = nuggetMaker("myComputer");
+// shackMaker(availElement, tablets);
+
+// var shackName = "Callan's Shack";
+// nuggetElement.innerHTML += shackName;
+
+
+function myLooper(myArray) {
+	for(var i=0; i<myArray.length; i++) {
+		console.log(myArray[i]);
+	}
+}
+
+var animals = ["cat", "turtle", "fish", "bears", "tigers"];
+var colors = ["red", "blue", "gold", "pink", "orange"];
+
+myLooper(animals);
+myLooper(colors);
  
 
 
