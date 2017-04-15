@@ -79,9 +79,7 @@
 // }
 // console.log("finalAnswer", finalAnswer);
 
-for(var i=0; i<5; i++){
-    console.log("i", i);
-}
+
 
 var fruit = ["cherries", "apples", "bananas", "orange"];
 
